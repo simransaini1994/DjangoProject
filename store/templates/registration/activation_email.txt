@@ -1,0 +1,4 @@
+Greeting,
+
+You just signed up for an account with Simran's Book Store. Please click below link to register
+http://{{ site.domain }} {% url 'registration_activate' activation_key %}
